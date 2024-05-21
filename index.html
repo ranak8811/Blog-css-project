@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog project</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header starts from here -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+
+      <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+
+      <nav aria-label="Main Menu" id="menu" class="hidden">
+        <ul role="menubar" aria-label="Main Menu">
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="#blog-about" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="#archives" class="nav-link" role="menuitem">Archives</a>
+          </li>
+          <li role="none">
+            <a href="#blog-posts" class="nav-link" role="menuitem"
+              >Blog Posts</a
+            >
+          </li>
+          <li role="none">
+            <a href="#contact-section" class="nav-link" role="menuitem"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header ends from here -->
+
+    <!-- main starts from here -->
+    <main>
+      <!-- banner section starts from here -->
+      <section id="blog-banner-section">
+        <article>
+          <h1 class="banner-heading">Web Development</h1>
+          <p class="banner-description text-justify">
+            Web development is a vibrant field involving the creation and
+            maintenance of websites. It blends creativity and technical skills
+            to build user-friendly, responsive, and interactive web
+            applications, continually evolving with new technologies and trends
+            to enhance the digital landscape.
+          </p>
+        </article>
+
+        <aside>
+          <img
+            src="images/cover-photo.jpg"
+            alt="cover photo"
+            class="banner-img"
+          />
+        </aside>
+      </section>
+      <!-- banner section ends from here -->
+
+      <!-- about-me section starts from here -->
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+
+        <div class="card-container">
+          <div class="card">
+            <h3 class="card-header">My Professional Journey</h3>
+
+            <p class="card-description">
+              Explore my journey in computer science and engineering, showcasing
+              my academic achievements, professional experiences, and continuous
+              pursuit of knowledge and growth in the tech industry.
+            </p>
+
+            <button type="submit" class="card-btn btn">Read more</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Hobbies and Interests</h3>
+
+            <p class="card-description">
+              Delve into my diverse interests, including app development,
+              competitive programming, and exploring new technologies, which
+              keep me engaged and inspired beyond my academic and professional
+              pursuits.
+            </p>
+
+            <button type="submit" class="card-btn btn">Read more</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Aspirations and Goals</h3>
+
+            <p class="card-description">
+              Learn about my aspirations to become a successful app and software
+              engineer, with a focus on personal and professional growth, and
+              achieving a balanced, fulfilling life with my family.
+            </p>
+
+            <button type="submit" class="card-btn btn">Read more</button>
+          </div>
+        </div>
+      </section>
+      <!-- about-me section ends from here -->
+
+      <!-- archives section starts from here -->
+      <section id="archives" class="section-center">
+        <h2 class="section-heading">Archives</h2>
+
+        <div class="archives-container">
+          <ul class="archives-container-lists">
+            <li class="archives-container-list">
+              <img src="images/img-1.jpg" alt="image" class="archives-img" />
+            </li>
+
+            <li class="archives-container-list">
+              <img src="images/img-2.jpg" alt="image" class="archives-img" />
+            </li>
+
+            <li class="archives-container-list">
+              <img src="images/img-3.jpg" alt="image" class="archives-img" />
+            </li>
+
+            <li class="archives-container-list">
+              <img src="images/img-1.jpg" alt="image" class="archives-img" />
+            </li>
+
+            <li class="archives-container-list">
+              <img src="images/img-2.jpg" alt="image" class="archives-img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- archives section ends from here -->
+
+      <!-- blog-posts section starts from here -->
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="images/img-1.jpg" alt="image" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">The Future of Artificial Intelligence</h2>
+            <h3 class="blog-sub-heading">
+              Innovations and Ethical Considerations
+            </h3>
+
+            <p class="blog-description">
+              AI's future promises unprecedented advancements, posing
+              opportunities and ethical challenges that require thoughtful
+              navigation to ensure beneficial outcomes for society.
+            </p>
+
+            <button class="btn blog-btn" type="submit">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="images/img-2.jpg" alt="image" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">AI in Everyday Life</h2>
+            <h3 class="blog-sub-heading">Enhancing Our Daily Experiences</h3>
+
+            <p class="blog-description">
+              Artificial Intelligence is integrated into daily tasks, from
+              virtual assistants to smart homes, revolutionizing how we interact
+              with technology seamlessly.
+            </p>
+
+            <button class="btn blog-btn" type="submit">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="images/img-3.jpg" alt="image" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">
+              The Evolution of Artificial Intelligence
+            </h2>
+            <h3 class="blog-sub-heading">From Concept to Reality</h3>
+
+            <p class="blog-description">
+              AI has transformed from theoretical ideas to practical
+              applications, reshaping industries and everyday life with
+              intelligent solutions and automation.
+            </p>
+
+            <button class="btn blog-btn" type="submit">Learn More</button>
+          </article>
+        </div>
+      </section>
+      <!-- blog-posts section ends from here -->
+
+      <!-- contact section starts from here -->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading blog-posts-heading text-white">
+          Contact Me
+        </h2>
+
+        <form action="" id="contact-form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" required autocomplete="name" />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" required autocomplete="email" />
+          </div>
+          <div class="form-control">
+            <label for="mesage">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="form-control form-btn-field">
+            <button type="submit" class="btn contact-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact section ends from here -->
+    </main>
+    <!-- main ends from here -->
+
+    <!-- footer starts from here -->
+    <footer>
+      <p class="copyright-text">
+        Copyright &copy; by Rana Ahamed. All rights reserved.
+      </p>
+
+      <nav aria-label="Footer Menu">
+        <ul id="menubar2" role="menubar2" aria-label="Footer Menu">
+          <li role="none">
+            <a
+              href="https://www.facebook.com/ranaf8811"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+              ><i class="fab fa-facebook footer-icon"></i
+            ></a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+              ><i class="fab fa-youtube footer-icon"></i
+            ></a>
+          </li>
+          <li role="none">
+            <a
+              href="https://github.com/ranak8811"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+              ><i class="fab fa-github footer-icon"></i
+            ></a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.linkedin.com/in/ranak8811/"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+              ><i class="fab fa-linkedin footer-icon"></i
+            ></a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.instagram.com/ranaf8811/?theme=dark"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+              ><i class="fab fa-instagram footer-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- footer ends from here -->
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
